@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 <style>
-iframe {display:none;}
+     #reminder > iframe {display:none;}
 </style>
 </head>
 <body>
