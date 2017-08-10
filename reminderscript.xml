@@ -8,7 +8,8 @@
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-	$('#reminder > iframe:gt(0)').hide();
+$( document ).ready(function() {
+   $('#reminder > iframe:gt(0)').hide();
 	
 	setInterval(function() { 
 	  $('#reminder > iframe:first')
@@ -18,6 +19,7 @@
 	    .end()
 	    .appendTo('#reminder');
 	},  3000);
+});
 </script>
 <div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF;">
      <iframe src="https://goo.gl/bcBJqk" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
