@@ -5,6 +5,11 @@
     <![CDATA[
 <!DOCTYPE HTML>
 <html lang="en">
+<head>
+<style>
+iframe {display:none;}
+</style>
+</head>
 <body>
 <div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF;">
      <iframe src="https://goo.gl/bcBJqk" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
