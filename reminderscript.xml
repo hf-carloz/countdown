@@ -27,16 +27,16 @@
 </style>
 <div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF; width: 220px;  height: 110px;">
    <div class="hidden" >
-     <iframe src="https://goo.gl/4BYqzM" name="frame" id="frame" width="180px" height="100px" frameborder="0" scrolling="no" ></iframe>
+     <iframe src="https://goo.gl/cQ13S7" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
    </div> 
    <div class="hidden" >
-     <iframe src="https://goo.gl/ecHJ69" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
+     <iframe src="https://goo.gl/5xtCZ1" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
    </div>
    <div class="hidden" >
-     <iframe src="https://goo.gl/kOcVZ4" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
+     <iframe src="https://goo.gl/SNfs10" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
    </div>
    <div class="hidden">
-	<iframe src="https://goo.gl/c3iEzt" name="frame" id="frame" width="220px" height="110px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/c3iEzt" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
 	</div> 
 </div>
 </body>
