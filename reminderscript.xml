@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Event Reminder" />
+  <Content type="html">
+    <![CDATA[
+<!DOCTYPE HTML>
+<html lang="en">
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$('#reminder > div:gt(0)').hide();
+	
+	setInterval(function() { 
+	  $('#reminder > div:first')
+	    .fadeOut(1000)
+	    .next()
+	    .fadeIn(1000)
+	    .end()
+	    .appendTo('#reminder');
+	},  3000);
+</script>
+<style>
+	body {
+    	background-color: #FFFFFF;
+	}
+	.hidden { display: none; }
+</style>
+<div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF; width: 220px;  height: 110px;">
+   <div class="hidden" >
+     <iframe src="https://goo.gl/4BYqzM" name="frame" id="frame" width="180px" height="100px" frameborder="0" scrolling="no" ></iframe>
+   </div> 
+   <div class="hidden" >
+     <iframe src="https://goo.gl/ecHJ69" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
+   </div>
+   <div class="hidden" >
+     <iframe src="https://goo.gl/kOcVZ4" name="frame" id="frame" width="180px" frameborder="0" scrolling="no" ></iframe>
+   </div>
+   <div class="hidden">
+	<iframe src="https://goo.gl/c3iEzt" name="frame" id="frame" width="300" height="110" frameborder="0" scrolling="no"></iframe>
+	</div> 
+</div>
+</body>
+</html>
+]]>
+  </Content>
+</Module>
